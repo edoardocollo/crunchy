@@ -21,6 +21,14 @@
         </style>
     </head>
     <body class="antialiased">
-	<h1>Bella <strong>MERI</strong> server up</h1>
+    <div style="display: flex; justify-content: center;">
+        <img src="{{asset('storage/test.jpg')}}" alt="test">
+    </div>
+    <div style="display: flex; justify-content: center">
+        <img  src="{{asset('storage/construction.jpg')}}" alt="test">
+    </div>
+    <div style="display: flex; justify-content: center">
+        <button style="height: 50px; width: 200px; border-radius: 10px; font-size: 20px">Sign In</button>
+    </div>
     </body>
 </html>
